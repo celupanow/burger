@@ -18,8 +18,8 @@ var burger = {
       cb(res);
     });
   },
-  delete: function(table, id, cb) {
-    orm.delete("burgers", table, id, function(res) {
+  delete: function(condition, cb) {
+    orm.delete("burgers", condition, function(res) {
       cb(res);
     });
   }

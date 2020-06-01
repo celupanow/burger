@@ -89,9 +89,9 @@ var orm = {
     });
   },
 
-  delete: function(table, id, cb) {
-    var queryString = "DELETE FROM " + table + " WHERE id = ?";
-    connection.query(queryString, [id], function(err, result) {
+  delete: function(table, condition, cb) {
+    var queryString = "DELETE FROM " + table + " WHERE " + condition;
+    connection.query(queryString, function(err, result) {
       if (err) {
         throw err;
       }

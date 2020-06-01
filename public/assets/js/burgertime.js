@@ -47,18 +47,12 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
   
-      var burgerId = $(this).attr("data-id");
+      var id = $(this).data("id");
   
-      $.ajax("/api/burgers/" + burgerId, {
+      $.ajax({
         type: "DELETE",
-        data: {id: burgerId}
-      }).then(
-        function() {
-          console.log("deleted burger");
-          // Reload the page to get the updated list
-          location.reload();
-        }
-      );
+        url: "/api/burgers/" + id
+      }).then(location.reload());
     });
   
   
