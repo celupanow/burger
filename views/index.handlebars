@@ -1,6 +1,6 @@
 <h1 class="jumbotron text-center">Eat-Da-Burger!</h1>
 
-<div class="container">
+<div class="container main-container">
   <div class="row">
     <div class="col-md-4">
       <h2>Burgers Not Eaten</h2>
@@ -9,8 +9,8 @@
         {{#each burgers}}
         {{#unless devoured}}
         <li>
-          {{this.burger_name}}
-          <button class="change-devoured btn btn-primary" data-id="{{this.id}}" data-newDevour="{{devoured}}">
+         {{this.burger_name}}
+          <button class="change-devoured btn btn-primary float" data-id="{{this.id}}" data-newDevour="{{devoured}}">
             DEVOUR
           </button>
         </li>
@@ -34,8 +34,10 @@
           <input type="radio" name="devoured" value="0"> Not Devoured
         </div>
 
-        <button type="submit">Add Burger</button>
+        <button type="submit" class="btn btn-primary">Add Burger</button>
       </form>
+
+      <img src="/assets/img/60612.jpg">
     </div>
 
     <div class="col-md-4">
@@ -46,9 +48,9 @@
       <ul>
         {{#each burgers}}
         {{#if devoured}}
-        <li>
-          {{this.burger_name}}
-          <button class="delete-burger btn btn-primary" data-id="{{this.id}}">
+        <li class="eaten">
+        {{this.burger_name}}
+          <button class="delete-burger btn btn-primary float" data-id="{{this.id}}">
             DELETE
           </button>
         </li>
@@ -61,3 +63,14 @@
 
 
 </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-black">Background Image From: <a href="https://www.vecteezy.com/free-vector/pixel-art">Pixel Art Vectors by Vecteezy</a></span>
+            <br>
+            <span class="text-black">Cute Cheeseburger Image From: <a href="https://www.freepik.com/free-photos-vectors/food">Food vector created by gstudioimagen - www.freepik.com</a></span>
+        </div>
+    </footer>
+
+{{!-- <a href="https://www.freepik.com/free-photos-vectors/food">Food vector created by gstudioimagen - www.freepik.com</a> --}}
+{{!-- <a href="https://www.vecteezy.com/free-vector/pixel-art">Pixel Art Vectors by Vecteezy</a> --}}
