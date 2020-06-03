@@ -8,15 +8,21 @@ Working Link
 
  - Display a list of burgers that have not been eaten.
  - Include a button for those burgers to be devoured.
+ - Display a list of burgers that have been eaten.
+ - Include a button for those burgers to be deleted.
+ - Have a form where a user can add a new burger to either list.
  
 ## How It Works
-Whe
+Uses MySQL database to keep track of the burgers and their devoured status. When the page loads, it lists them on the appropriate side, including the buttons for users to devour or delete. It has a form where the user can input their own burger, which is put into the SQL database.
 
 ## Technologies
 
  - HTML
- - C
+ - CSS
+ - Handlebars
+ - MySQL
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzA1NDA5N119
+eyJoaXN0b3J5IjpbLTMyMjQzMDU5Nl19
 -->
