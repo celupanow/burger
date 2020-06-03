@@ -21,8 +21,11 @@ Uses MySQL database to keep track of the burgers and their devoured status. When
  - CSS
  - Handlebars
  - MySQL
- - 
+ - Node.js
+ - Express
+ - ORM
+ - MVC
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjQzMDU5Nl19
+eyJoaXN0b3J5IjpbLTQzNDEzNDE5NF19
 -->
