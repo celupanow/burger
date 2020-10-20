@@ -1,23 +1,32 @@
 //when the devour button is clicked, the devour status is changed
 $(function() {
     $(".change-devoured").on("click", function(event) {
+      event.preventDefault();
+
       var id = $(this).data("id");
-      var newDevour = $(this).data("newdevour");
+      // var newDevour = $(this).data("newdevour");
   
-      var newDevourState = {
-        devoured: newDevour
-      };
+      // var newDevourState = {
+      //   devoured: newDevour
+      // };
+
+      $.ajax({
+        type: "PUT",
+        url: "/api/burgers/" + id
+      }).then(function(data) {
+        location.reload();
+      });
   
       //changing the devour state
-      $.ajax("/api/burgers/" + id, {
-        type: "PUT",
-        data: newDevourState
-      }).then(
-        function() {
-          console.log("changed devour to", newDevour);
-          location.reload();
-        }
-      );
+      // $.ajax("/api/burgers/" + id, {
+      //   type: "PUT",
+      //   data: newDevourState
+      // }).then(
+      //   function() {
+      //     console.log("changed devour to", newDevour);
+      //     location.reload();
+      //   }
+      // );
     });
   
     //adding a new burger
