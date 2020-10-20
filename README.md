@@ -8,11 +8,11 @@
 This application uses ORM and MySQL to keep track of burgers that have been eaten.
 <br />
 <br />
-<a href=" https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud/view">View Demo</a>
+<a href="https://agile-wave-27022.herokuapp.com/">View Demo</a>
 ·
-<a href="https://github.com/celupanow/sequelizedBurger/issues">Report Bug</a>
+<a href="https://github.com/celupanow/burger/issues">Report Bug</a>
 ·
-<a href="https://github.com/celupanow/sequelizedBurger/issues">Request Feature</a>
+<a href="https://github.com/celupanow/burger/issues">Request Feature</a>
 
 </p>
 
@@ -34,7 +34,7 @@ This application uses ORM and MySQL to keep track of burgers that have been eate
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-![Eat-Da-Burger: Sequelized](./public/assets/img/eatdaburgersequelize-still-citadel.png "Eat-Da-Burger: Sequelized")
+![Eat-Da-Burger](./public/assets/img/eatdaburger-agile-wave.png "Eat-Da-Burger")
 
 ### Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -43,7 +43,6 @@ This application uses ORM and MySQL to keep track of burgers that have been eate
 * [Node.js](https://nodejs.org)
 * [MySQL](https://www.mysql.com/)
 * [Express](https://expressjs.com/)
-* [Sequelize](https://sequelize.org/)
 
 <!-- GETTING STARTED -->
 
@@ -66,7 +65,7 @@ You will also need MySQL installed. There is a schema file and a seeds file incl
 
 ```sh
 
-git clone https://github.com/celupanow/sequelizedBurger.git
+git clone https://github.com/celupanow/burger.git
 
 ```
 2. Install the NPM packages
@@ -86,14 +85,14 @@ node server.js
 
   
 
-See the [open issues](https://github.com/celupanow/sequelizedBurger/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/celupanow/burger/issues) for a list of proposed features (and known issues).
 
 <!-- CONTACT -->
 
 ## Contact
 Christina Lupanow - christina@christinalupanow.com
 <p>
-Project Link: [https://still-citadel-06884.herokuapp.com/](https://still-citadel-06884.herokuapp.com/)
+Project Link: [https://agile-wave-27022.herokuapp.com/](https://agile-wave-27022.herokuapp.com/)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -105,25 +104,25 @@ Project Link: [https://still-citadel-06884.herokuapp.com/](https://still-citadel
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/celupanow/sequelizedBurger.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/celupanow/burger.svg?style=flat-square
 
-[contributors-url]: https://github.com/celupanow/sequelizedBurger/graphs/contributors
+[contributors-url]: https://github.com/celupanow/burger/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/celupanow/sequelizedBurger.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/celupanow/burger.svg?style=flat-square
 
-[forks-url]: https://github.com/celupanow/sequelizedBurger/network/members
+[forks-url]: https://github.com/celupanow/burger/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/celupanow/sequelizedBurger.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/celupanow/burger.svg?style=flat-square
 
-[stars-url]: https://github.com/celupanow/sequelizedBurger/stargazers
+[stars-url]: https://github.com/celupanow/burger/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/celupanow/sequelizedBurger.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/celupanow/burger.svg?style=flat-square
 
-[issues-url]: https://github.com/celupanow/sequelizedBurger/issues
+[issues-url]: https://github.com/celupanow/burger/issues
 
-[license-shield]: https://img.shields.io/github/license/celupanow/sequelizedBurger.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/celupanow/burger.svg?style=flat-square
 
-[license-url]: https://github.com/celupanow/sequelizedBurger/blob/master/LICENSE.txt
+[license-url]: https://github.com/celupanow/burger/blob/master/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 
@@ -161,5 +160,5 @@ Uses MySQL database to keep track of the burgers and their devoured status. When
  - MVC
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODQ0NDY5NywtNDM0MTM0MTk0XX0=
+eyJoaXN0b3J5IjpbMTYzNjc0Njc4NCwtNDM0MTM0MTk0XX0=
 -->
