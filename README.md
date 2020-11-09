@@ -126,9 +126,10 @@ Project Link: [https://agile-wave-27022.herokuapp.com/](https://agile-wave-27022
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 
-[linkedin-url]: https://linkedin.com/in/celupanow
+[linkedin-url]: https://www.linkedin.com/in/christinalupanow
 
 [product-screenshot]: images/screenshot.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDQ1NzgxMiwtNDM0MTM0MTk0XX0=
+eyJoaXN0b3J5IjpbLTg0MzQ4OTAxMCwxMzc0NDU3ODEyLC00Mz
+QxMzQxOTRdfQ==
 -->
